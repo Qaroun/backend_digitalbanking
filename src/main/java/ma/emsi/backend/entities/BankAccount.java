@@ -1,13 +1,13 @@
-package emsi.org.ebankingbackend.entities;
+package ma.emsi.backend.entities;
 
-import emsi.org.ebankingbackend.enums.AccountStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
+import jakarta.persistence.*;
+import ma.emsi.backend.enums.AccountStatus;
+
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)

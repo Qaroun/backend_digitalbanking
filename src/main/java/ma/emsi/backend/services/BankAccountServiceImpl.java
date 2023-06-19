@@ -1,17 +1,18 @@
-package emsi.org.ebankingbackend.services;
+package ma.emsi.backend.services;
 
-import emsi.org.ebankingbackend.dtos.*;
-import emsi.org.ebankingbackend.entities.*;
-import emsi.org.ebankingbackend.enums.OperationType;
-import emsi.org.ebankingbackend.exceptions.BalanceNotSufficientException;
-import emsi.org.ebankingbackend.exceptions.BankAccountNotFoundException;
-import emsi.org.ebankingbackend.exceptions.CustomerNotFoundException;
-import emsi.org.ebankingbackend.mappers.BankAccountMapperImpl;
-import emsi.org.ebankingbackend.repositories.AccountOperationRepository;
-import emsi.org.ebankingbackend.repositories.BankAccountRepository;
-import emsi.org.ebankingbackend.repositories.CustomerRepository;
+
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import ma.emsi.backend.dtos.*;
+import ma.emsi.backend.entities.*;
+import ma.emsi.backend.enums.OperationType;
+import ma.emsi.backend.exceptions.BalanceNotSufficientException;
+import ma.emsi.backend.exceptions.BankAccountNotFoundException;
+import ma.emsi.backend.exceptions.CustomerNotFoundException;
+import ma.emsi.backend.mappers.BankAccountMapperImpl;
+import ma.emsi.backend.repositories.AccountOperationRepository;
+import ma.emsi.backend.repositories.BankAccountRepository;
+import ma.emsi.backend.repositories.CustomerRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;

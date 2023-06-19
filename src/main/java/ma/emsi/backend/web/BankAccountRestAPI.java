@@ -1,9 +1,10 @@
-package emsi.org.ebankingbackend.web;
+package ma.emsi.backend.web;
 
-import emsi.org.ebankingbackend.dtos.*;
-import emsi.org.ebankingbackend.exceptions.BalanceNotSufficientException;
-import emsi.org.ebankingbackend.exceptions.BankAccountNotFoundException;
-import emsi.org.ebankingbackend.services.BankAccountService;
+
+import ma.emsi.backend.dtos.*;
+import ma.emsi.backend.exceptions.BalanceNotSufficientException;
+import ma.emsi.backend.exceptions.BankAccountNotFoundException;
+import ma.emsi.backend.services.BankAccountService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

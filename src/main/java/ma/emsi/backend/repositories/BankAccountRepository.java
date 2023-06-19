@@ -1,8 +1,8 @@
-package emsi.org.ebankingbackend.repositories;
+package ma.emsi.backend.repositories;
 
-import emsi.org.ebankingbackend.entities.BankAccount;
-import emsi.org.ebankingbackend.entities.Customer;
+import ma.emsi.backend.entities.BankAccount;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BankAccountRepository extends JpaRepository<BankAccount,String> {
+
 }

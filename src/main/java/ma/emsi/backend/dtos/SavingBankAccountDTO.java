@@ -1,7 +1,7 @@
-package emsi.org.ebankingbackend.dtos;
+package ma.emsi.backend.dtos;
 
-import emsi.org.ebankingbackend.enums.AccountStatus;
 import lombok.Data;
+import ma.emsi.backend.enums.AccountStatus;
 
 import java.util.Date;
 

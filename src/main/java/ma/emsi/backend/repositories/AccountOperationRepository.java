@@ -1,7 +1,6 @@
-package emsi.org.ebankingbackend.repositories;
+package ma.emsi.backend.repositories;
 
-import emsi.org.ebankingbackend.entities.AccountOperation;
-import emsi.org.ebankingbackend.entities.BankAccount;
+import ma.emsi.backend.entities.AccountOperation;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

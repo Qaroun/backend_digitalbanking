@@ -1,13 +1,11 @@
-package emsi.org.ebankingbackend.services;
+package ma.emsi.backend.services;
 
-import emsi.org.ebankingbackend.dtos.*;
-import emsi.org.ebankingbackend.entities.BankAccount;
-import emsi.org.ebankingbackend.entities.CurrentAccount;
-import emsi.org.ebankingbackend.entities.Customer;
-import emsi.org.ebankingbackend.entities.SavingAccount;
-import emsi.org.ebankingbackend.exceptions.BalanceNotSufficientException;
-import emsi.org.ebankingbackend.exceptions.BankAccountNotFoundException;
-import emsi.org.ebankingbackend.exceptions.CustomerNotFoundException;
+
+
+import ma.emsi.backend.dtos.*;
+import ma.emsi.backend.exceptions.BalanceNotSufficientException;
+import ma.emsi.backend.exceptions.BankAccountNotFoundException;
+import ma.emsi.backend.exceptions.CustomerNotFoundException;
 
 import java.util.List;
 
@@ -18,7 +16,7 @@ public interface BankAccountService {
     SavingBankAccountDTO saveSavingBankAccount(double initialBalance, double interestRate, Long customerId) throws CustomerNotFoundException;
     List<CustomerDTO> listCustomers();
     BankAccountDTO getBankAccount(String accountId) throws BankAccountNotFoundException;
-    void debit(String accountId, double amount, String description) throws BankAccountNotFoundException, BalanceNotSufficientException;
+    void debit(String accountId, double amount, String description) throws BankAccountNotFoundException, BalanceNotSufficientException, BalanceNotSufficientException;
     void credit(String accountId, double amount, String description) throws BankAccountNotFoundException;
     void transfer(String accountIdSource, String accountIdDestination, double amount) throws BankAccountNotFoundException, BalanceNotSufficientException;
 

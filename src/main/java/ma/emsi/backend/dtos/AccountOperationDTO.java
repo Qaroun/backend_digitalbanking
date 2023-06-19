@@ -1,12 +1,8 @@
-package emsi.org.ebankingbackend.dtos;
+package ma.emsi.backend.dtos;
 
-import emsi.org.ebankingbackend.entities.BankAccount;
-import emsi.org.ebankingbackend.enums.OperationType;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import ma.emsi.backend.enums.OperationType;
 
-import javax.persistence.*;
 import java.util.Date;
 
 

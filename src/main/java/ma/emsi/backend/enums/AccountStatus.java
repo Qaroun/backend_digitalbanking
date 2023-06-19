@@ -1,4 +1,4 @@
-package emsi.org.ebankingbackend.enums;
+package ma.emsi.backend.enums;
 
 public enum AccountStatus {
 

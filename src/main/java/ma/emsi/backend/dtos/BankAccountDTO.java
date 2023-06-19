@@ -1,4 +1,4 @@
-package emsi.org.ebankingbackend.dtos;
+package ma.emsi.backend.dtos;
 
 import lombok.Data;
 

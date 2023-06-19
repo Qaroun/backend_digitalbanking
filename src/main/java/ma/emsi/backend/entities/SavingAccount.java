@@ -1,11 +1,10 @@
-package emsi.org.ebankingbackend.entities;
+package ma.emsi.backend.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import jakarta.persistence.*;
 
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
 
 @Entity @DiscriminatorValue("SA")
 @Data @NoArgsConstructor @AllArgsConstructor

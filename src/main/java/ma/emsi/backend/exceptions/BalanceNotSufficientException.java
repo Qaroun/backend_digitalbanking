@@ -1,4 +1,4 @@
-package emsi.org.ebankingbackend.exceptions;
+package ma.emsi.backend.exceptions;
 
 public class BalanceNotSufficientException extends Exception {
 

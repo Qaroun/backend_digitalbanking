@@ -1,9 +1,10 @@
-package emsi.org.ebankingbackend.services;
+package ma.emsi.backend.services;
 
-import emsi.org.ebankingbackend.entities.BankAccount;
-import emsi.org.ebankingbackend.entities.CurrentAccount;
-import emsi.org.ebankingbackend.entities.SavingAccount;
-import emsi.org.ebankingbackend.repositories.BankAccountRepository;
+
+import ma.emsi.backend.entities.BankAccount;
+import ma.emsi.backend.entities.CurrentAccount;
+import ma.emsi.backend.entities.SavingAccount;
+import ma.emsi.backend.repositories.BankAccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

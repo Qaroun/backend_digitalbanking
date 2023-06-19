@@ -1,11 +1,11 @@
-package emsi.org.ebankingbackend.web;
+package ma.emsi.backend.web;
 
-import emsi.org.ebankingbackend.dtos.CustomerDTO;
-import emsi.org.ebankingbackend.entities.Customer;
-import emsi.org.ebankingbackend.exceptions.CustomerNotFoundException;
-import emsi.org.ebankingbackend.services.BankAccountService;
+
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import ma.emsi.backend.dtos.CustomerDTO;
+import ma.emsi.backend.exceptions.CustomerNotFoundException;
+import ma.emsi.backend.services.BankAccountService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

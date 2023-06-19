@@ -1,13 +1,14 @@
-package emsi.org.ebankingbackend.mappers;
+package ma.emsi.backend.mappers;
 
-import emsi.org.ebankingbackend.dtos.AccountOperationDTO;
-import emsi.org.ebankingbackend.dtos.CurrentBankAccountDTO;
-import emsi.org.ebankingbackend.dtos.CustomerDTO;
-import emsi.org.ebankingbackend.dtos.SavingBankAccountDTO;
-import emsi.org.ebankingbackend.entities.AccountOperation;
-import emsi.org.ebankingbackend.entities.CurrentAccount;
-import emsi.org.ebankingbackend.entities.Customer;
-import emsi.org.ebankingbackend.entities.SavingAccount;
+
+import ma.emsi.backend.dtos.AccountOperationDTO;
+import ma.emsi.backend.dtos.CurrentBankAccountDTO;
+import ma.emsi.backend.dtos.CustomerDTO;
+import ma.emsi.backend.dtos.SavingBankAccountDTO;
+import ma.emsi.backend.entities.AccountOperation;
+import ma.emsi.backend.entities.CurrentAccount;
+import ma.emsi.backend.entities.Customer;
+import ma.emsi.backend.entities.SavingAccount;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
